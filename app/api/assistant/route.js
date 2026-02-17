@@ -1,5 +1,5 @@
 
-import { createParkingSuggestionPrompt } from "@/utils/promptsUtils"
+import { createParkingSuggestionPrompt } from "@/utils/promptsUtils.js"
 
 export async function POST(req) {
   const { message } = await req.json()
